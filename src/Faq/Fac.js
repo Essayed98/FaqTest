@@ -8,7 +8,7 @@ const Fac = () => {
     
       useEffect(() =>{
       
-            axios.get(`http://localhost:3001/FaqQuestion`)
+            axios.get(`https://my-json-server.typicode.com/Essayed98/FaqTest/FaqQuestion`)
               .then(res => {
                 setQuestions(res.data);
                 
